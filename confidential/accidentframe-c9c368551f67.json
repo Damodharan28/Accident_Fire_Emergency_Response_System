@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "accidentframe",
+  "private_key_id": "c9c368551f67fc67d5abb586df93f1bed42f27a5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCa6YDBL1pnuKko\nsmzgeuBsVjbsRO1sBayyje4UO4eaFNz6UH+o9MYBgWyZDWN3eOG2DRvU+yefGFjY\nA3I941xnVM/fbk5nWMdMipvsJWKexrn45Ev341n712dUdj3etAb2Wir9Bk1xLeVx\n6AK4JMAGub5aDeyLf46iiCZepwKXo09lNFJ2gQa8cXP/Ep2fjxOGOLehwi2xgCvN\nyrdwOW5BM4P4noGkMWJbSMyoddRC9IoWMDrpWk/F0EWZiyuQm/EymRnmZjUaiAqw\nav9mLtc/6sMv8WRFAMLAXb80qlzIe4LBBfntSTnJTXkniUbnR9CDLRWVcIeyz9L0\nhSTQhzmtAgMBAAECggEAA6QuexwGV37PNx4ukf5BbTp/kwExxYLCovXUHVSi5NvN\nr/KZdZq/VsS4jUZzypikUZewSkrXDRXQ7M7z7gF8qA8lzb41iJddI+70KFJepZXN\nREz1fi+xa0qOar1WyffYXA0VipoN0vW9uXY3LiXq/515HHvMTiEi9K4XnMz3MiJC\nu8G22jBpoJNiBCRs1h8ym06KdMKNjf7IqbjNzfG3HlGKUmHyMbu0ZCqXdjM7S8Y+\nwy6PwX34xcxXb9yeiYk+YuLvf/+MoBG+3totLR+wyC7a0EAOmXYYcsTFOXAqEfWs\n9Ze+1Q0Muf3e6pQpG4yrV+1ev5GzU3462ViE1VIjMQKBgQDLcFjTk/MifI8D815P\n1dAZx9P9MwnTbONWtIm0TAAYZMN6ysd3Ppxt1g1HQMxKpNXe/a453b7pjKd2hO57\nZZXlY5shxEU4lcLz/iZKzEx+JSxMEoMPwyBHYHYLTBw18WvoHVxs+O3qsNGt0bpy\n3GkDTfixZ2vSrt1Jl7Caaijp1QKBgQDC74xgPajtJGFM+kPjAn2hAMH+mW1FJ7lj\nmM1uCXc6Gnq7K6KZHY9Iy4eG72Ym/Sr1o7ZxtNLGupgxgh1+iZ3H/E5Aw9BJG5l5\n+PhXUwfWV4sIgT5UQUibzWGYyVT8BzZWYL2ru0sktoEgmASOdhfm8xzZA6aqrhsx\nm2s8Z7PkeQKBgFlps2Cqcf4CSMkvuY/VJXVvQljSicsG3JRLHQrFLHWMM+5QGYLr\nXc1YetWKQT+9WtJ7JIwCTdpQG3oXyskpSMxdDt20acgI6npahXHygNwgcmus5zWS\nSSmV18v3U57R0N9fqDOs5MR1mnKO7yd0gCMXreoqzlT2zgN+S/xSFFFRAoGASmuh\nr+xaXY6SBw1UdYox5BGh/k0cxlYQFNH1O5kph2ksieByxvneBfCN4Rnsad4lVHoX\n4PkjrvL1v5DpKbHoJr1QMrGPBxoeUc6XIN92EoKBddHBtfDmg3S5WdcjNsSaHgf4\n4WMzoOR8D7F5q9mx7l3KGZ+nNWoav6mSGxGMQCECgYA592odu5v5WGQAe5Moc3Ln\n4lPNXfYSfruRVD7wBEhsYbH2vojJzojVSsvGP8HzInK8Yj/9066CIddb4Wh+zi6Q\n6vq14v7DBnQRDxZX6k4ICUb6EE6ojWGt6FonU3xCBBcMVX0mgvzOC3apbsHMMiiU\nPH5OIasTanFkHsFE8PsYAw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "accidentframeacc@accidentframe.iam.gserviceaccount.com",
+  "client_id": "103019666821228726202",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/accidentframeacc%40accidentframe.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
