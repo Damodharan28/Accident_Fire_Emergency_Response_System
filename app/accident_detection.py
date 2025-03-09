@@ -9,8 +9,6 @@ load_dotenv()
 
 API_KEY = os.getenv("API_KEY")
 
-# API_KEY = "AlzaSybROQROGG8La3yZRQO3MbWJueREJ9l4O8Z"
-
 def process_accident(latitude, longitude):
     """Detects an accident and fetches the nearest hospitals."""
     print("Accident detected!")
