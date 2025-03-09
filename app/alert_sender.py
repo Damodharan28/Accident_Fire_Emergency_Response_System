@@ -1,14 +1,14 @@
 from twilio.rest import Client
 import time
 
-# Twilio credentials
-ACCOUNT_SID = 'ACd94b9d6940bc89a5f70fa736c3023031'
-AUTH_TOKEN = 'ab2bddd96bd26eb5dae65debc2bf1d09'
-TWILIO_WHATSAPP_NUMBER = 'whatsapp:+14155238886'
+import os
+from dotenv import load_dotenv
 
-# responders = {
-#     "whatsapp:+919940219151": False,
-# }
+load_dotenv()
+
+ACCOUNT_SID = os.getenv("ACCOUNT_SID")
+AUTH_TOKEN = os.getenv("AUTH_TOKEN")
+TWILIO_WHATSAPP_NUMBER = os.getenv("TWILIO_WHATSAPP_NUMBER")
 
 client = Client(ACCOUNT_SID, AUTH_TOKEN)
 
