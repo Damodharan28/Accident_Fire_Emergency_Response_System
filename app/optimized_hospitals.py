@@ -2,6 +2,13 @@ import requests
 import time
 import math
 
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+API_KEY = os.getenv("API_KEY")
+
 def haversine_distance(lat1, lon1, lat2, lon2):
     """Calculate the great-circle distance (Haversine) between two points on the Earth."""
     R = 6371  # Earth radius in km
@@ -107,8 +114,6 @@ def select_best_hospitals(latitude, longitude, places, api_key):
 
     return hospitals_with_actual_distance
 
-# Example usage
-API_KEY = "AlzaSyn8Qn7zw41ftsAO5Fi6DIzeo8ObRNson9C"  # Replace with your GoMapsPro API key
 latitude = 12.969419  # Replace with your latitude
 longitude = 80.192912  # Replace with your longitude
 radius = 2000  # Search radius in meters

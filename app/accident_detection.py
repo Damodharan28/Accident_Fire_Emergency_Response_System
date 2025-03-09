@@ -2,8 +2,14 @@ import cv2
 import random
 from optimized_hospitals import get_all_nearby_places, select_best_hospitals
 from detect_accident import detect_accident, determine_severity
+import os
+from dotenv import load_dotenv
 
-API_KEY = "AlzaSyn8Qn7zw41ftsAO5Fi6DIzeo8ObRNson9C"
+load_dotenv()
+
+API_KEY = os.getenv("API_KEY")
+
+# API_KEY = "AlzaSybROQROGG8La3yZRQO3MbWJueREJ9l4O8Z"
 
 def process_accident(latitude, longitude):
     """Detects an accident and fetches the nearest hospitals."""

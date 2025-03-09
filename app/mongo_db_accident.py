@@ -5,12 +5,12 @@ from pymongo.server_api import ServerApi
 uri = "mongodb+srv://accidentdetectioncse2024:I7A5XWFml8VFAfFQ@clusteraccident.mvst9.mongodb.net/?retryWrites=true&w=majority&appName=ClusterAccident"
 
 accident_data = {
-  "_id": "Accident123",
+  "_id": "Fire125",
   "location": "12.9716, 77.5946",
   "severity": "High",
   "vehicles_involved": 3,
   "timestamp": "2025-02-21T10:30:00Z",
-  "status": "open",  
+  "status": "open",
   "assigned_to": None,  
   "responders": [
     {"number": "whatsapp:+919876543210", "status": "pending"},
@@ -29,7 +29,7 @@ except Exception as e:
 
 db = client["accident_db"]
 
-accidents_collection = db["accidents"]
+accidents_collection = db["fire_accidents"]
 
 try:
     accidents_collection.insert_one(accident_data)
